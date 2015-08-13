@@ -1,0 +1,36 @@
+/* This is a comment */
+
+/* CSS Syntax
+
+selector {
+  propert: value;
+  propery: value;
+}
+
+*/
+
+/* Type Selector */
+
+p{ /*Selects all <p> elements*/
+  font-size: 1em; /* 16px, ?pt, 100%, 1em */
+  /*pt can vary between OS and browser*/
+  /*% and em are both relative. em is depedant on size of the letter em */
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;
+  font: does ALL of this
+  */
+  font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+  color: #777;
+  text-align: right;
+  }
+
+
+
+
