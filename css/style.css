@@ -1,3 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+/* MUST BE AT TOP
+Fonts came from google fonts */
+
+
 /* This is a comment */
 
 /* CSS Syntax
@@ -26,10 +32,53 @@ figcaption {
   font-family: Georgia, "New Times Roman", serif;
   font: does ALL of this
   */
-  font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
   color: #777;
   text-align: right;
-  }
+}
+
+/* Class selector (applied to as many elemnts as you like) */
+
+.milk-text { /* Select elements with a class="milk-text" */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID Selectors (apply to only ONE per PAGE) */
+
+#logo { /* Select elements with id="logo" */
+  background: aqua;
+}
+
+/* Descendent Selector */
+
+#logo h1 { /* Only styles h1's inside id="logo" */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* Psuedo class selectors (:....)*/
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+} 
+
+#details a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active{
+  color: red;
+  text-decoration: underline;
+}
+
+
 
 
 
